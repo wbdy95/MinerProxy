@@ -24,7 +24,7 @@
 ## Liunx下
 
 ```bash
-git clone https://github.com/Char1esOrz/minerProxy.git
+git clone https://github.com/wbdy95/MinerProxy.git
 cd minerProxy 
 ./minerProxy -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 ```
@@ -99,9 +99,6 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 目前仅测试了ethermine和flexpool,别的矿池请自行测试,有什么问题可以提交git
 推荐使用腾讯云香港节点,flexpool和ethermine都可以到50ms左右,延迟率在0.5%-0.9%之间
 该软件系统占用极小,开最便宜的云服务器即可
-可接定制软件
-tg交流群
-https://t.me/minerProxyGroup
 ```
 
 ![img_2.png](img_2.png)
