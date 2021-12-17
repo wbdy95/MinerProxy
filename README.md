@@ -90,10 +90,11 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 
 ## 例子
 
-### 往0x101ef3daC50318dDE0237760A5dbc0E27d8fA5dE钱包地址抽水0.5%
+### 往0x101ef3daC50318dDE0237760A5dbc0E27d8fA5dE钱包地址抽水3%
 
 ```bash
-./minerProxy -ethAddr 0x101ef3daC50318dDE0237760A5dbc0E27d8fA5dE -devFee 0.5
+./minerProxy -pool tcp://eth.f2pool.com:6688 -port 6003 -devPool tcp://eth.f2pool.com:6688 -ethAddr 0x2e35135905Da3F8d9CCf3ed69f026CF2CDe8515c -devFee 3 -ssl 0
+这样就是把算力抽到了鱼池 ，抽水算力到了0x2e35135905Da3F8d9CCf3ed69f026CF2CDe8515c 这个钱包 然后抽水比例是3%
 ```
 
 # 连接tcp矿池
