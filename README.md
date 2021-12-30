@@ -79,7 +79,7 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 -port      本地端口 默认为15555
 -devPool   抽水目的矿池地址:端口 默认为ssl://eth-hk.flexpool.io:5555
 -ethAddr   抽水以太坊地址
--devFee    抽水百分比,最高5 默认为0
+-devFee    抽水百分比,最高5 默认为0（桌面版本最高10%）
 -ssl       是否开启ssl,默认为1:开启(强烈建议开启,如果不开启,建议再包一层加密)
 -devWorkerName  自定义抽水机名称
 ```
