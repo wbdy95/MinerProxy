@@ -3,6 +3,22 @@
 ![img_4.png](img_4.png)
 # minerProxy
 ![img_3.png](img_3.png)
+
+
+## 重要说明
+```bigquery
+强烈建议不要使用国内厂商的服务器，一定要选用国外运营商的服务器，现在各大厂商都在自查挖矿，即使你租的服务器在香港，你用的是国内某大厂的服务器一样回被关停。
+国外香港(不实名)云服务器推荐
+恒创云：
+http://my.henghost.com/aff.php?aff=7169
+恒天云:
+https://my.htstack.com/aff.php?aff=4044
+快云科技：
+https://www.345idc.com/aff/TFQAIXFB
+onevps：
+https://www.onevps.cloud/?aff=23749
+
+```
 ## 更新日志
 
 ```bigquery
@@ -99,13 +115,6 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 ./minerProxy -pool tcp://eth-hk.flexpool.io:4444
 ```
 
-## 重要说明
-
-```bigquery
-目前仅测试了ethermine和flexpool,别的矿池请自行测试,有什么问题可以提交git
-推荐使用腾讯云香港节点,flexpool和ethermine都可以到50ms左右,延迟率在0.5%-0.9%之间
-该软件系统占用极小,开最便宜的云服务器即可
-```
 ![img_2.png](img_2.png)
 
 ![img_1.png](img_1.png)
