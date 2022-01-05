@@ -118,5 +118,3 @@ minerProxy.exe -pool ssl://eth-hk.flexpool.io:5555 -port 15555
 ```
 
 ![img_2.png](img_2.png)
-
-![img_1.png](img_1.png)
